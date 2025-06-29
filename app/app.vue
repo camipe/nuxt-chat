@@ -2,7 +2,9 @@
   <UApp>
     <div>
       <NuxtRouteAnnouncer />
-      <UButton>CLick me</UButton>
+      <NuxtLayout>
+        <NuxtPage />
+      </NuxtLayout>
     </div>
   </UApp>
 </template>
